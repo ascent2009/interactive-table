@@ -1,0 +1,45 @@
+.table {
+  border-collapse: collapse;
+  width: 90%;
+  margin: 40px auto;
+  border: 3px solid black;
+}
+
+.tableHeader {
+  border: 1px dashed black;
+  border-bottom: 2px solid black;
+  margin: 20px auto 0;
+  font-size: 20px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.tableCells tr:hover {
+  color: rgb(209, 205, 205);
+}
+
+th {
+  border: 1px dashed black;
+  padding: 25px 0;
+  cursor: pointer;
+}
+
+ul {
+  padding: 0;
+  margin-top: 0;
+  width: 100%;
+}
+
+.tableCells {
+    border: 1px dashed black;
+    border-top: 0;
+    font-size: 20px;
+    text-align: left;
+}
+  
+td {
+    min-width: 120px;
+    padding: 20px;
+    border: 1px dashed black;
+}
+

@@ -1,0 +1,47 @@
+.itemBlock {
+    display: flex;
+    width: 70%;
+    height: fit-content;
+    margin: auto;
+    background: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid black;
+
+}
+
+.userBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: darkgrey;
+    border-radius: 5px;
+    border: 1px solid darkgrey;
+    min-width: 50%;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: left;
+    align-items: baseline;
+    font-weight: bold;
+    width: 80%
+}
+
+.labelItem {
+    min-width: 100px;
+    color: blue;
+    
+}
+
+.text {
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    margin: 0 auto 5px 20px;
+}
+
+.wrapper:last-child .text{
+    font-style: italic;
+    font-weight: normal;
+}
